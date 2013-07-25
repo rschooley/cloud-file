@@ -1,0 +1,30 @@
+{
+    "name": "cloud-file", 
+    "version": "0.0.0", 
+    "main": "./lib/cloud-file.js",
+    "dependencies": {
+        "knox": ">= 0.3.1"
+    },
+    "devDependencies": {
+        "mocha": "*",
+        "should": "*"
+    },
+    "engines": {
+        "node": "*"
+    },
+    "author": { 
+        "name" : "Robert Schooley",
+        "email": "robert.schooley@gmail.com"
+    },
+    "bugs": "https://github.com/rschooley/cloud-file/issues",
+    "description": "Save files uploaded to Express.js in Amazon S3",
+    "homepage": "https://github.com/rschooley/cloud-file",
+    "keywords": ["files", "upload" ],
+    "license": "MIT",
+    "os": [ "darwin", "linux" ],
+    "private": false,
+    "repository": { 
+        "type" : "git",
+        "url" : "https://github.com/rschooley/cloud-file.git"
+    }
+}
